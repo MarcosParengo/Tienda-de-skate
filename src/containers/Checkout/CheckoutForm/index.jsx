@@ -91,7 +91,7 @@ const CheckoutForm = () => {
                 <Form.Group as={Col} controlId="FormPostalCode">
                     <Form.Label>Codigo postal</Form.Label>
                     <Form.Control required onChange={handleChange} />
-                    <Form.Text className="text-muted">xxxx</Form.Text>
+                    <Form.Text className="text-muted">X1234XXX</Form.Text>
                 </Form.Group>
             </Row>
             <Form.Group id="formTyC" className="mt-3">
