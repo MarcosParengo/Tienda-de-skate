@@ -61,19 +61,19 @@ const CheckoutForm = () => {
                 <Form.Group as={Col} controlId="formPhone">
                     <Form.Label>Telefono</Form.Label>
                     <Form.Control required onChange={handleChange} />
-                    <Form.Text className="text-muted">+XX X XX XXXX-XXXX</Form.Text>
+                    <Form.Text className="text-muted">+12 3 45 6789-1234</Form.Text>
                 </Form.Group>
             </Row>
             <Row>
                 <Form.Group as={Col} controlId="formAddress">
                     <Form.Label>Dirección</Form.Label>
                     <Form.Control required onChange={handleChange} />
-                    <Form.Text className="text-muted">Calle XXXX</Form.Text>
+                    <Form.Text className="text-muted">Calle 1234</Form.Text>
                 </Form.Group>
                 <Form.Group as={Col} controlId="formAddressData">
                     <Form.Label>Piso, numero de departamento</Form.Label>
                     <Form.Control required onChange={handleChange} />
-                    <Form.Text className="text-muted">X° N° XX</Form.Text>
+                    <Form.Text className="text-muted">1° piso N°23</Form.Text>
                 </Form.Group>
             </Row>
             <Row>
@@ -91,7 +91,7 @@ const CheckoutForm = () => {
                 <Form.Group as={Col} controlId="FormPostalCode">
                     <Form.Label>Codigo postal</Form.Label>
                     <Form.Control required onChange={handleChange} />
-                    <Form.Text className="text-muted">xxxx</Form.Text>
+                    <Form.Text className="text-muted">A1234BCD</Form.Text>
                 </Form.Group>
             </Row>
             <Form.Group id="formTyC" className="mt-3">
