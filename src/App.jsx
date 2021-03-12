@@ -7,6 +7,7 @@ import ItemListContainer from './containers/ItemListContainer'
 import ItemDetail from './containers/ItemDetail'
 import Checkout from './containers/Checkout'
 import { CartProvider } from './context/cartContext.jsx'
+import AfterCheckout from './containers/AfterCheckout';
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
             </Route>
             <Route exact path="/Checkout">
               <Checkout />
+            </Route>
+            <Route exact path="/afterCheckout/:token/:name">
+              <AfterCheckout />
             </Route>
           </Switch>
         </div>

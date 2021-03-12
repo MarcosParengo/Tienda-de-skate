@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useHistory } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form, Button, Col, Row, OverlayTrigger, Tooltip, Overlay } from 'react-bootstrap';
+import { Form, Button, Col, Row, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import { CartContext } from '../../../context/cartContext';
 import { getFirestore } from '../../../firebase';
 
@@ -30,9 +30,7 @@ const CheckoutForm = () => {
             const comprasCollection = baseDeDatos.collection('compras');
             comprasCollection.add(data)
                 .then((docRef) => {
-                    console.log("Document written with ID: ", docRef.id);
-                    alert("Tu compra se proceso con exito, pronto nos comunicaremos con vos para que realices el pago")
-                    history.push("/");
+                    history.push(`/afterCheckout/${docRef.id}/${data.formNameLastName}`);
                     clearCart();
                 })
                 .catch((error) => {
