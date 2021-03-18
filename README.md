@@ -46,9 +46,13 @@ Para obtener la informacion guardada en la base de datos Firestore y escribir lo
 ## Preview
 
 ![](/preview/1.png)
+
 ![](/preview/2.png)
+
 ![](/preview/3.png)
+
 ![](/preview/4.png)
+
 ![](/preview/5.png)
 
 ### Notes
