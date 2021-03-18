@@ -5,8 +5,6 @@ Tambien tiene funcionalidades como filtrar por marcas los articulos mostrados en
 ## Contenido
 
 Este proyecto tiene dos branches: main y gh-pages. **main** contiene la version base del proyecto, para seguir pudiendo implementar caractreristicas y **gh-pages** la version builded, lista para hacer deploy.
-## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
 
 ## Instalación y ejecución
     Para instalar y ejecutar se deben seguir una serie de pasos
@@ -47,11 +45,11 @@ Para obtener la informacion guardada en la base de datos Firestore y escribir lo
 
 ## Preview
 
-![](/preview/1.jpg)
-![](/preview/2.jpg)
-![](/preview/3.jpg)
-![](/preview/4.jpg)
-![](/preview/5.jpg)
+![](/preview/1.png)
+![](/preview/2.png)
+![](/preview/3.png)
+![](/preview/4.png)
+![](/preview/5.png)
 
 ### Notes
 If you want to learn all about markdown i recommend you visit the site 
