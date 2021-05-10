@@ -42,7 +42,7 @@ const MyVerticallyCenteredModal = (props) => {
             <Col>
               <ButtonGroup aria-label="Basic example" style={{ float: 'right' }} >
                 <Button onClick={clearCart} variant="outline-dark">Clear Cart</Button>
-                <Button as={Link} to={"/Checkout"} variant="outline-dark" onClick={props.onHide} >Go to checkout</Button>
+                <Button as={Link} to={"/Tienda-de-skate/Checkout"} variant="outline-dark" onClick={props.onHide} >Go to checkout</Button>
               </ButtonGroup>
             </Col>
           </Row>

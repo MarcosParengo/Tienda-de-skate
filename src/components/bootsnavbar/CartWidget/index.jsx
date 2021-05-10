@@ -18,7 +18,7 @@ const CartWidget = () => {
         {' '}
         <img
           alt=""
-          src="/images/cart.png"
+          src="https://raw.githubusercontent.com/MarcosParengo/Tienda-de-skate/master/public/images/cart.png"
           width="30"
           height="30"
           className="d-inline-block align-top"

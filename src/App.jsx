@@ -16,19 +16,19 @@ const App = () => {
         <div className="App">
           <BnavBar linkTo={"https://www.thrashermagazine.com/"} />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/Tienda-de-skate/">
               <ItemListContainer />
             </Route>
-            <Route exact path="/category/:id">
+            <Route exact path="/Tienda-de-skate/category/:id">
               <ItemListContainer />
             </Route>
-            <Route exact path="/itemDetail/:id">
+            <Route exact path="/Tienda-de-skate/itemDetail/:id">
               <ItemDetail />
             </Route>
-            <Route exact path="/Checkout">
+            <Route exact path="/Tienda-de-skate/Checkout">
               <Checkout />
             </Route>
-            <Route exact path="/afterCheckout/:token/:name">
+            <Route exact path="/Tienda-de-skate/afterCheckout/:token/:name">
               <AfterCheckout />
             </Route>
           </Switch>

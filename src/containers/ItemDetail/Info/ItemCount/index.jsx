@@ -41,7 +41,7 @@ const ItemCount = ({ initial, plus, minus,item}) => {
                 </Button>
                 <Button variant="outline-light" size="lg" block
                     style={{display: display ? 'block' : 'none' }} 
-                    as={Link} to={"/checkout"} > Go To Checkout </Button>
+                    as={Link} to={"/Tienda-de-skate/checkout"} > Go To Checkout </Button>
             </div>
         </>
     )

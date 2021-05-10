@@ -12,8 +12,8 @@ const Item = ({ item, is }) => {
         <>
             <Col xl={2} lg={3} md={3} sm={4} className="mb-4">
                 <Card bg="dark" text="light" className="h-100">
-                    <Link to={`/ItemDetail/${item.id}`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
-                        <Card.Img variant="top" src={item.image} />
+                    <Link to={`/Tienda-de-skate/ItemDetail/${item.id}`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
+                        <Card.Img variant="top" src={item.imageGHP} />
                         <Card.Body>
                             <Card.Title>{item.name}</Card.Title>
                             <Card.Title>${item.price}</Card.Title>

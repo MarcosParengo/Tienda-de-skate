@@ -16,7 +16,7 @@ const AfterCheckout = () => {
                     <h3>Tu compra se proceso con exito.</h3>
                     <h3>Pronto nos comunicaremos con vos para que realices el pago.</h3>
                     <h2>Tu token de compra es: </h2><h2 style={{fontWeight:"bolder",textDecoration: "underline"}}>{token}</h2>
-                    <Button variant="outline-dark" as={Link} to={"/"} block>Volver a la home</Button>
+                    <Button variant="outline-dark" as={Link} to={"/Tienda-de-skate/"} block>Volver a la home</Button>
                 </Col>
             </Row>
         </Container>

@@ -23,14 +23,13 @@ const CheckoutForm = () => {
     }
 
     const handleSubmit = (event) => {
-        console.log(cart.length)
         if (cart.length !== 0) {
             data.items = cart;
             const baseDeDatos = getFirestore();
             const comprasCollection = baseDeDatos.collection('compras');
             comprasCollection.add(data)
                 .then((docRef) => {
-                    history.push(`/afterCheckout/${docRef.id}/${data.formNameLastName}`);
+                    history.push(`/Tienda-de-skate/afterCheckout/${docRef.id}/${data.formNameLastName}`);
                     clearCart();
                 })
                 .catch((error) => {
