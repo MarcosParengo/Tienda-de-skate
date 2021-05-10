@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Tienda-de-skate/static/css/main.49383e84.chunk.css",
-    "main.js": "/Tienda-de-skate/static/js/main.3d7f86c8.chunk.js",
-    "main.js.map": "/Tienda-de-skate/static/js/main.3d7f86c8.chunk.js.map",
+    "main.css": "/Tienda-de-skate/static/css/main.03f3d3b6.chunk.css",
+    "main.js": "/Tienda-de-skate/static/js/main.330f8540.chunk.js",
+    "main.js.map": "/Tienda-de-skate/static/js/main.330f8540.chunk.js.map",
     "runtime-main.js": "/Tienda-de-skate/static/js/runtime-main.1a929f49.js",
     "runtime-main.js.map": "/Tienda-de-skate/static/js/runtime-main.1a929f49.js.map",
     "static/css/2.d65fdcc0.chunk.css": "/Tienda-de-skate/static/css/2.d65fdcc0.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.91e3880d.chunk.js.map": "/Tienda-de-skate/static/js/3.91e3880d.chunk.js.map",
     "index.html": "/Tienda-de-skate/index.html",
     "static/css/2.d65fdcc0.chunk.css.map": "/Tienda-de-skate/static/css/2.d65fdcc0.chunk.css.map",
-    "static/css/main.49383e84.chunk.css.map": "/Tienda-de-skate/static/css/main.49383e84.chunk.css.map",
+    "static/css/main.03f3d3b6.chunk.css.map": "/Tienda-de-skate/static/css/main.03f3d3b6.chunk.css.map",
     "static/js/2.7628a2fc.chunk.js.LICENSE.txt": "/Tienda-de-skate/static/js/2.7628a2fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1a929f49.js",
     "static/css/2.d65fdcc0.chunk.css",
     "static/js/2.7628a2fc.chunk.js",
-    "static/css/main.49383e84.chunk.css",
-    "static/js/main.3d7f86c8.chunk.js"
+    "static/css/main.03f3d3b6.chunk.css",
+    "static/js/main.330f8540.chunk.js"
   ]
 }
